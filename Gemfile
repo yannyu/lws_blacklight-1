@@ -6,6 +6,7 @@ gem "devise-guests", "~> 0.3"
 gem "bootstrap-sass"
 gem 'blacklight'
 gem "unicode", :platforms => [:mri_18, :mri_19]
+gem "blacklight_range_limit"
 
 platforms :jruby do
   gem 'activerecord-jdbcsqlite3-adapter'

@@ -97,6 +97,7 @@ class CatalogController < BaseController
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display 
     config.add_show_field 'description', :label => 'Description:' 
+    config.add_facet_field 'mpg', :label => 'mpg', :range => true
 
     # "fielded" search configuration. Used by pulldown among other places.
     # For supported keys in hash, see rdoc for Blacklight::SearchFields
